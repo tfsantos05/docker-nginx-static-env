@@ -1,0 +1,9 @@
+server {
+    charset      utf-8;
+    listen       ${PORT};
+    server_name  ${SERVER_NAME};
+    location / {
+        root   ${ROOT};
+        index  ${INDEX};
+    }
+}
